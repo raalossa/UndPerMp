@@ -50,8 +50,17 @@ if (opt1 > opt2){
 
 console.log("Best Option: " + bestopt);
 
-
+if(larpt > 0 && larmp>0 && ancpt>0 && ancmp>0){
 document.getElementById("bocrcr").innerHTML = ("En la mejor opción se obtienen : "  + bestopt + " und de PT. Con un % de desperdicio de MP del: " + desp.toFixed(2) + " %." );
 
+}else{
+
+document.getElementById("bocrcr").innerHTML = ("Sin Datos, Ingrese las dimensiones de MP y de PT.")
+
+
+}
+
 };
+
+
 

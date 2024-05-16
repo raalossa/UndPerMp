@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Akaya+Kanadaka&family=Madimi+One&family=Noto+Music&family=Road+Rage&family=Tauri&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+        <h1>Cálculo UND de PT/MP</h1>
+        <hr>
+        
+
+        <div class="grid-container2">
+
+            <div><a href="index.html"><button class="grid-item buttonhome"> Inicio </button></a></div>
+            <div class="grid-item title">Forma Troquelada</div>
+            <div><button class="grid-item buttoncalcule" onclick="crtr()">Calcular</button></div>
+
+
+            <div class="grid-item image" ><img src="images/lamcrtr.jpg" alt="" class="imgint"></div>
+            <div class="grid-item result" id="bocrcr"></div>
+
+            <div class="grid-item q1">A Largo Producto (mm)</div>
+            <input  class="grid-item ans1" type="number" id="larpt"> 
+            <div class="grid-item q2" >C Largo Materia Prima (mm)</div>
+            <input  class="grid-item ans2" type="number" id="larmp"> 
+
+            <div class="grid-item q3">B Ancho Producto (mm)</div>
+            <input  class="grid-item ans3" type="number" id="ancpt"> 
+            <div class="grid-item q4">D Ancho Materia Prima (mm)</div>
+            <input  class="grid-item ans4" type="number" id="ancmp"> 
+
+            <div class="grid-item q5">E Refile MP en Largo (mm)</div>
+            <input  class="grid-item ans5" type="number" id="reflarmp"> 
+            <div class="grid-item q6">F Refile MP en Ancho (mm)</div>
+            <input  class="grid-item ans6" type="number" id="refancmp"> 
+
+            <div class="grid-item q7">G Margen Seguridad MP (mm)</div>
+            <input  class="grid-item ans7" type="number" id="marmptr" value="5"> 
+            <div class="grid-item q8">H Espacio entre Cavidades (mm)</div>
+            <input  class="grid-item ans8" type="number" id="espcavtr" value="4"> 
+
+            <div class="grid-item q9">Q Und de PT/Troquel en Lado I</div>
+            <input  class="grid-item ans9" type="number" id="undlado1tr"> 
+            <div class="grid-item q10">Q Und de PT/Troquel en Lado J</div>
+            <input  class="grid-item ans10" type="number" id="undlado2tr"> 
+
+            <div class="footer">RAOS 2024 All rights Reserved &copy;</div>
+    
+        </div>
+    
+     
+
+
+
+</body>
+</html>
